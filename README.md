@@ -1,2 +1,3 @@
-# autopress
-将现有的markdown文件，一键转化为vuepress项目。
+# 步骤描述
+
+## 将README.md全部放在名字相同的文件夹
