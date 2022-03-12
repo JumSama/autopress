@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 const program = require('commander')
-const helpConfig = require('./lib/core/help')
+const HelpConfig = require('./lib/core/help')
+const VersionConfig = require('./lib/core/version')
 const createCommands = require('./lib/core/create')
 
-helpConfig()
-
+HelpConfig()
+VersionConfig()
 createCommands()
 
 program.parse(process.argv)
